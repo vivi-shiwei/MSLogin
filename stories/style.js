@@ -14,8 +14,8 @@ export const FullscreenContent = (props) => {
       d='flex'
       alignItems='center'
       flexDirection='column'
-      py='32px'
-      px='16px'
+      py={{ base: "0", sm: '32px' }}
+      px={{ base: "0", sm: '16px' }}
       flex='1 0 auto'
       {...props}
     />

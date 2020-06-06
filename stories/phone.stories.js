@@ -43,14 +43,14 @@ const phone = ({ redirectPath }) => {
             >
                 <FullscreenContent justifyContent='center'>
                     <LargeTitle>手機登入</LargeTitle>
-                    <InputGroup pt={8}>
-                        <Select placeholder="澳門(+853)" fontSize={{ base: "2xl", sm: "3xl" }} h="70px" w="40%"
+                    <InputGroup pt={6} display={{ base: 'block', sm: "flex" }}>
+                        <Select placeholder="澳門(+853)" fontSize={{ base: "2xl", sm: "3xl" }} h="70px" m={2} w={{ base: "100%", sm: "40%" }}
                             borderRadius='10px'>
                             <option value="option1">Option 1</option>
                             <option value="option2">Option 2</option>
                             <option value="option3">Option 3</option>
                         </Select>
-                        <Input type="tel" placeholder="輸出你的手機號碼" borderRadius='10px' fontSize={{ base: "2xl", sm: "3xl" }} ml={2} h="70px" w="60%" />
+                        <Input type="tel" placeholder="輸出你的手機號碼" borderRadius='10px' fontSize={{ base: "2xl", sm: "3xl" }} m={2} h="70px" w={{ base: "100%", sm: "60%" }} />
                     </InputGroup>
                     <Container>
                         <Box p={4} d='flex' flexWrap='wrap' justifyContent='center'>
