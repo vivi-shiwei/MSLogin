@@ -17,9 +17,7 @@ const phoneButton = ({ redirectPath }) => {
                 <Select placeholder="澳門(+853)" fontSize="xl" h="60px"
                     w={{ base: '100%', sm: '170px' }}
                     borderRadius='10px'>
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
-                    <option value="option3">Option 3</option>
+                    <option value="中國(+86)">中國(+86)</option>
                 </Select>
                 <Input type="tel" placeholder="輸出你的手機號碼" borderRadius='10px' fontSize="xl" h="60px" ml={{ base: "0", sm: '3px' }} mt={{ base: "6px", sm: "0" }}
                     w={{ base: '100%', sm: '280px' }} />
