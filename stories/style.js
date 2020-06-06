@@ -25,7 +25,8 @@ export const Title = (props) => {
   return (
     <Heading
       as='h1'
-      size='xl'
+      fontSize="60px"
+      // size='2xl'
       w='100%'
       mb='8px'
       textAlign='center'
@@ -50,6 +51,18 @@ export const CodeOfConduct = (props) => {
       mt='64px'
       mx='32px'
       textAlign='center'
+      {...props}
+    />
+  )
+}
+export const Label = (props) => {
+  return (
+    <Box
+      d='flex'
+      flex='1 0 auto'
+      justifyContent='center'
+      mt='-1px'
+      ml='8px'
       {...props}
     />
   )
