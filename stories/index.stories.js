@@ -11,7 +11,7 @@ import {
 import Layout from '../components/layout'
 import FullscreenView from '../components/fullscreenView'
 import LoginButtonSet from '../components/loginButtonSet'
-import phoneButton from '../components/phoneButton'
+import phoneButton from '../components/briefButton'
 import App from '../App'
 
 import {

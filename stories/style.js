@@ -2,8 +2,7 @@ import React from 'react';
 import {
   Box,
   Heading,
-  Text,
-  SimpleGrid
+  Text
 } from '@chakra-ui/core'
 
 export const FullscreenContent = (props) => {
@@ -14,8 +13,8 @@ export const FullscreenContent = (props) => {
       d='flex'
       alignItems='center'
       flexDirection='column'
-      py={{ base: "0", sm: '32px' }}
-      px={{ base: "0", sm: '16px' }}
+      py='32px'
+      px='16px'
       flex='1 0 auto'
       {...props}
     />
@@ -26,8 +25,7 @@ export const Title = (props) => {
   return (
     <Heading
       as='h1'
-      fontSize="60px"
-      // size='2xl'
+      size='xl'
       w='100%'
       mb='8px'
       textAlign='center'
@@ -52,30 +50,6 @@ export const CodeOfConduct = (props) => {
       mt='64px'
       mx='32px'
       textAlign='center'
-      {...props}
-    />
-  )
-}
-export const Label = (props) => {
-  return (
-    <Box
-      d='flex'
-      flex='1 0 auto'
-      justifyContent='center'
-      mt='-1px'
-      ml='8px'
-      {...props}
-    />
-  )
-}
-
-export const Container = (props) => {
-  return (
-    <SimpleGrid
-      columns={1}
-      spacing='16px'
-      py='16px'
-      w={{ base: '100%', sm: '340px' }}
       {...props}
     />
   )
