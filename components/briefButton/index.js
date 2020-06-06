@@ -12,7 +12,7 @@ import {
 const briefButton = ({ redirectPath }) => {
   return (
     <>
-      <Input type="tel" placeholder="123456" borderRadius='4px' fontSize="5xl" w={{ base: "100%", sm: '440px' }} h />
+      <Input type="tel" placeholder="123456" mt={3} borderRadius='4px' fontSize="5xl" w={{ base: "100%", sm: '410px' }} h />
       <Container>
         <Box d='flex' flexWrap='wrap' justifyContent='center'
           pt={2}>
