@@ -13,16 +13,16 @@ import {
 const phoneButton = ({ redirectPath }) => {
     return (
         <>
-            <Box display={{ base: "block", sm: 'flex' }} w={{ base: "100%", sm: '540px' }}>
+            <Box display={{ base: "block", sm: 'flex' }} w={{ base: "100%", sm: '493px' }}>
                 <Select placeholder="澳門(+853)" fontSize="2xl" h="60px"
-                    w={{ base: '100%', sm: '220px' }}
+                    w={{ base: '100%', sm: '180px' }}
                     borderRadius='10px'>
                     <option value="option1">Option 1</option>
                     <option value="option2">Option 2</option>
                     <option value="option3">Option 3</option>
                 </Select>
                 <Input type="tel" placeholder="輸出你的手機號碼" borderRadius='10px' fontSize="2xl" h="60px" ml={{ base: "0", sm: '5px' }}
-                    w={{ base: '100%', sm: '336px' }} />
+                    w={{ base: '100%', sm: '310px' }} />
             </Box>
             <Container>
                 <Box p={2} d='flex' flexWrap='wrap' justifyContent='center' >
