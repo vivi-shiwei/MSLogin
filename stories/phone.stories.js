@@ -23,18 +23,6 @@ import {
     Container
 } from './style'
 
-const Login = ({ redirectPath }) => {
-    return (
-        <Layout>
-            <FullscreenView>
-                <FullscreenContent justifyContent='center'>
-                    <LargeTitle>登入</LargeTitle>
-                    <LoginButtonSet />
-                </FullscreenContent>
-            </FullscreenView>
-        </Layout>
-    )
-}
 const phone = ({ redirectPath }) => {
     return (
         <Layout>
@@ -123,8 +111,5 @@ const phone = ({ redirectPath }) => {
 }
 
 
-
-export default { title: 'Login' };
-
-export const Logins = () => { return App(Login) };
-
+export default { title: 'phone' };
+export const phones = () => { return App(phone) };
