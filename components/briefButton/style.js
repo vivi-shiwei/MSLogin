@@ -10,7 +10,7 @@ export const Container = (props) => {
       columns={1}
       spacing='16px'
       py='16px'
-      w={{ base: '100%', sm: '340px' }}
+      w={{ base: '100%', sm: '250px' }}
       {...props}
     />
   )
